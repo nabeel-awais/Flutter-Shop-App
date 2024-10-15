@@ -9,7 +9,7 @@ final products = [
   },
   {
     'id': '1',
-    'title': 'Addidas Shoes',
+    'title': 'Adidas Shoes',
     'price': 20.12,
     'imageUrl': 'assets/images/shoes_2.png',
     'company': 'Addidas',
@@ -31,4 +31,15 @@ final products = [
     'company': 'Nike',
     'sizes': [8, 9, 10],
   },
+];
+
+final cart = [
+  {
+    'id': '3',
+    'title': 'jordan Shoes',
+    'price': '420.39',
+    'imageUrl': 'assets/images/shoes_4.png',
+    'company': 'Nike',
+    'size': 8,
+  }
 ];
