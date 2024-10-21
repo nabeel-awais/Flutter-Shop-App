@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:shop_app_flutter/global_variables.dart';
 import 'package:shop_app_flutter/widgets/product_card.dart';
 import 'package:shop_app_flutter/pages/product_detail_page.dart';

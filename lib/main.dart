@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shop_app_flutter/pages/login_page.dart';
 import 'package:shop_app_flutter/providers/cart_provider.dart';
 import 'package:shop_app_flutter/pages/home_page.dart';
 
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        home: const HomePage(),
+        home: const LoginPage(),
       ),
     );
   }
