@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shop_app_flutter/pages/login_page.dart';
 import 'package:shop_app_flutter/providers/cart_provider.dart';
-import 'package:shop_app_flutter/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,8 +24,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: 'Lato',
           colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromRGBO(254, 206, 1, 1),
-            primary: const Color.fromRGBO(254, 206, 1, 1),
+            seedColor: const Color.fromARGB(255, 98, 1, 254),
+            primary: const Color.fromARGB(132, 255, 98, 1),
           ),
           inputDecorationTheme: const InputDecorationTheme(
             hintStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
